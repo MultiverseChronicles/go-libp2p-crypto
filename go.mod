@@ -3,14 +3,12 @@ module github.com/MultiverseChronicles/go-libp2p-crypto
 go 1.24.0
 
 replace (
-    github.com/libp2p/go-libp2p => github.com/MultiverseChronicles/go-libp2p v0.23.0
-    github.com/libp2p/go-libp2p-core => github.com/MultiverseChronicles/go-libp2p-core v0.1.0
-    github.com/multiformats/go-multiaddr => github.com/MultiverseChronicles/go-multiaddr v1.1.0
+	github.com/libp2p/go-libp2p => github.com/MultiverseChronicles/go-libp2p v0.23.0
+	github.com/multiformats/go-multiaddr => github.com/MultiverseChronicles/go-multiaddr v1.1.0
 )
 
-
 require (
-	github.com/libp2p/go-libp2p-core v0.20.1
+	github.com/libp2p/go-libp2p-core v0.1.0
 	github.com/libp2p/go-libp2p-crypto v0.1.0
 )
 
@@ -41,4 +39,4 @@ require (
 	lukechampine.com/blake3 v1.1.7 // indirect
 )
 
-replace github.com/libp2p/go-libp2p-core => github.com/MultiverseChronicles/go-libp2p-core v0.0.0-20250805014417-5734e8618d7a
+replace github.com/libp2p/go-libp2p-core => github.com/MultiverseChronicles/go-libp2p-core v0.1.0
