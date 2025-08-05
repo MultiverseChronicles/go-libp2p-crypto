@@ -1,3 +1,3 @@
-module github.com/libp2p/go-libp2p-crypto
+module github.com/MultiverseChronicles/go-libp2p-crypto
 
-require github.com/libp2p/go-libp2p-core v0.0.1
+require github.com/MultiverseChronicles/go-libp2p-core
